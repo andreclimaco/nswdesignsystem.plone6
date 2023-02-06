@@ -5,7 +5,10 @@
 
   <configure zcml:condition="installed AccessControl.security">
   <!-- -*- extra stuff goes here -*- -->
-
+  <permission
+      id="nswdesignsystem.plone6.SiteInfo"
+      title="SiteInfo: Access Site Info"
+  />
 
   </configure>
 
